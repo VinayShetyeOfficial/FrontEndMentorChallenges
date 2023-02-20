@@ -1,4 +1,4 @@
-# Frontend Mentor - Results summary component
+# Frontend Mentor - Results summary component<a href="https://spontaneous-cassata-66e84e.netlify.app/" target="_blank"><ins>Live Site</ins></a>
 
 ![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
 
