@@ -1,4 +1,4 @@
-# Frontend Mentor - QR code component
+# Frontend Mentor - QR code component (<a href="https://63f2e995eeaea56f8f8d2338--resilient-cranachan-83f913.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
