@@ -1,4 +1,4 @@
-# Frontend Mentor - Multi-step form
+# Frontend Mentor - Results summary component (<a href="https://63f763121a6e4701d542f3da--beautiful-liger-85da37.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
 
 ![Design preview for the Multi-step form coding challenge](./design/desktop-preview.jpg)
 
