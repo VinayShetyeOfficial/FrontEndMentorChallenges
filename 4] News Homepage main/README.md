@@ -1,4 +1,4 @@
-# Frontend Mentor - News homepage
+# Frontend Mentor - News homepage (<a href="https://63f8b820d611600050fe000d--polite-donut-565469.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
 
