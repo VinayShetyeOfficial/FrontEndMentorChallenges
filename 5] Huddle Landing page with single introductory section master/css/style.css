@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&&family=Open+Sans:wght@400;600;700&display=swap");
+
 :root {
   --violet: hsl(257, 40%, 49%);
   --soft-magenta: hsl(300, 69%, 71%);
@@ -50,15 +51,17 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 header img {
   max-width: 13.49rem;
   padding-top: 0.3rem;
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   transition: all 0.3s ease-in-out;
 }
+
 header img:hover {
   transform: scale(1.1) translateX(0.5rem);
 }
@@ -69,16 +72,20 @@ main {
   padding: 0 4.5rem;
   display: grid;
   grid-template-columns: 1.35fr 1fr;
+  align-items: start;
   gap: 3.3rem;
 }
+
 main .image {
   width: 100%;
   height: 100%;
 }
+
 main .image img {
   display: block;
   width: 100%;
 }
+
 main .content {
   display: flex;
   flex-direction: column;
@@ -86,11 +93,13 @@ main .content {
   align-items: flex-start;
   gap: 1.25rem;
 }
+
 main .content p {
   font-family: "Open Sans", sans-serif;
   font-size: 1.12rem;
   margin-right: 1rem;
 }
+
 main .content .btn {
   border: 0.063rem solid hsl(257, 40%, 49%);
   border-radius: 4rem;
@@ -104,12 +113,14 @@ main .content .btn {
   box-shadow: 0 0.063rem 0.188rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.24);
   transition: all 0.3s ease-in-out;
 }
+
 main .content .btn:hover {
   background-color: hsl(300, 69%, 71%);
   color: hsl(257, 40%, 49%);
   transform: scale(1.1);
   box-shadow: 0 0.875rem 1.75rem rgba(0, 0, 0, 0.25), 0 0.625rem 0.625rem rgba(0, 0, 0, 0.22);
 }
+
 main .content .btn.btn-primary {
   padding: 1rem 4rem;
   border: none;
@@ -119,6 +130,7 @@ main .content .btn.btn-primary {
 footer {
   min-height: 10vh;
 }
+
 footer .horizontal-list {
   display: flex;
   flex-direction: row;
@@ -126,14 +138,16 @@ footer .horizontal-list {
   align-items: center;
   flex-wrap: wrap;
   -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  padding-inline-start: 0;
   margin-block: 0;
   gap: 1rem;
   padding: 0 5rem;
 }
+
 footer .horizontal-list li {
   display: block;
 }
+
 footer .horizontal-list li a {
   width: 2.5rem;
   height: 2.5rem;
@@ -149,6 +163,7 @@ footer .horizontal-list li a {
   font-size: 1rem;
   transition: all 0.3s ease-in-out;
 }
+
 footer .horizontal-list li a:hover {
   transform: scale(1.3);
   color: hsl(257, 40%, 49%);
@@ -161,27 +176,33 @@ footer .horizontal-list li a:hover {
     background-size: contain;
   }
 }
+
 @media screen and (min-width: 75em) {
   body {
     background-size: cover;
     background-image: url("../images/bg-desktop.svg");
   }
 }
+
 @media screen and (max-width: 48em) {
   h1 {
     font-size: 1.5rem;
   }
-  body > header {
+
+  body>header {
     margin: 0 2rem;
     height: 15vh;
   }
-  body > header img {
+
+  body>header img {
     max-width: 8.49rem;
   }
+
   main {
     padding: 0 2rem;
   }
 }
+
 @media screen and (max-width: 75em) {
   main {
     height: -moz-fit-content;
@@ -190,15 +211,18 @@ footer .horizontal-list li a:hover {
     gap: 1rem;
     padding: 0 3rem;
   }
+
   main .content {
     margin: 2rem 0 4rem 0;
     align-items: center;
     text-align: center;
     gap: 2rem;
   }
+
   main .content p {
     margin-right: 0;
   }
+
   main {
     height: -moz-fit-content;
     height: fit-content;
@@ -206,31 +230,39 @@ footer .horizontal-list li a:hover {
     gap: 1rem;
     padding: 0 3rem;
   }
+
   main .content {
     margin: 2rem 0 4rem 0;
     align-items: center;
     text-align: center;
     gap: 2rem;
   }
+
   main .content p {
     margin-right: 0;
   }
+
   footer .horizontal-list {
     justify-content: center;
     padding: 0 1rem 2rem 1rem;
   }
+
   footer .horizontal-list a {
     width: 3rem;
     height: 3rem;
     font-size: 1.5rem;
   }
 }
+
 @media screen and (min-width: 103.75em) {
   main {
     align-items: center;
     margin: 0 auto;
   }
+
   main .content {
     margin: 0;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
