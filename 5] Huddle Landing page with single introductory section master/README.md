@@ -1,4 +1,4 @@
-# Frontend Mentor - Huddle landing page with single introductory section (<a href="https://63f9a86532824357c7110069--resilient-custard-ebfadb.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
+# Frontend Mentor - Huddle landing page with single introductory section (<a href="https://jolly-sable-01b349.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
 
 
 ![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
