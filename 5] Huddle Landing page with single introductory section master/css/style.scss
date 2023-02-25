@@ -71,6 +71,7 @@ main {
     padding: 0 4.5rem;
     display: grid;
     grid-template-columns: 1.35fr 1fr;
+    align-items: start;
     gap: 3.3rem;
 
     .image {
