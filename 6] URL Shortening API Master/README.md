@@ -1,4 +1,5 @@
-# Frontend Mentor - Shortly URL shortening API Challenge
+# Frontend Mentor - Shortly URL shortening API Challenge (<a href="https://deluxe-medovik-32d214.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
+
 
 ![Design preview for the Shortly URL shortening API coding challenge](./design/desktop-preview.jpg)
 
