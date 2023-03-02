@@ -1,4 +1,4 @@
-# Frontend Mentor - Shortly URL shortening API Challenge (<a href="https://earnest-alpaca-573193.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
+# Frontend Mentor - Shortly URL shortening API Challenge (<a href="https://radiant-unicorn-e53580.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
 
 ![Design preview for the Shortly URL shortening API coding challenge](./design/desktop-preview.jpg)
 
