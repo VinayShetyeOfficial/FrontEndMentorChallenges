@@ -1,4 +1,5 @@
-# Frontend Mentor - Shortly URL shortening API Challenge
+# Frontend Mentor - Shortly URL shortening API Challenge (<a href="https://jocular-swan-24fa43.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
+
 
 ![Design preview for the Shortly URL shortening API coding challenge](./design/desktop-preview.jpg)
 
