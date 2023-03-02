@@ -45,7 +45,6 @@ const shortenURL = () => {
                 })
 
                 const data = await response.json();
-                console.log(data);
                 const shortURL = data.short_url;
 
                 if (data) {
