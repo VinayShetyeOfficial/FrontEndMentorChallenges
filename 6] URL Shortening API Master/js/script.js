@@ -3,7 +3,7 @@ const validateURL = (url) => {
     return regex.test(url);
 }
 
-const shortenURL = async () => {
+const shortenURL = () => {
     event.preventDefault();
 
     const inputURL = document.getElementById("url");
@@ -24,7 +24,7 @@ const shortenURL = async () => {
         if (validateURL(inputURL.value)) {
             formInput.classList.remove('errDisplay');
             errMessage.classList.remove('errDisplay');
-            console.log('URL is Valid');
+            console.log('URL Status: URL is Valid');
 
             const api = async () => {
 
@@ -45,7 +45,8 @@ const shortenURL = async () => {
                 })
 
                 const data = await response.json();
-                const shortURL = data['short_url'];
+                console.log(data);
+                const shortURL = data.short_url;
 
                 if (data) {
                     console.log("Logn URL: " + longURL);
@@ -64,14 +65,14 @@ const shortenURL = async () => {
             errMessage.classList.add('errDisplay');
             errMessage.appendChild(img);
             errMessage.appendChild(document.createTextNode(errText[1]));
-            console.log('URL is Invalid');
+            console.log('URL Status: URL is Invalid');
         }
     } else {
         formInput.classList.add('errDisplay');
         errMessage.classList.add('errDisplay');
         errMessage.appendChild(img);
         errMessage.appendChild(document.createTextNode(errText[0]));
-        console.log('URL is Empty');
+        console.log('URL Status: URL is Empty');
     }
 }
 
